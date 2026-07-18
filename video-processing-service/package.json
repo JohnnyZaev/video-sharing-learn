@@ -10,7 +10,8 @@
     "start": "ts-node src/index.ts",
     "build": "tsc",
     "serve": "node dist/index.js",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint": "eslint ."
   },
   "dependencies": {
     "express": "^5.2.1",
